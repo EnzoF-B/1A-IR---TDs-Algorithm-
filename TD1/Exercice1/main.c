@@ -3,7 +3,7 @@
 #include "fib.h"
 
 int main() {
-    int n = 30;
+    int n = 30;                                        //test ici avec 30
     long long int DPFib[n+1];
     for (int i = 0; i <= n+1; i++) DPFib[i] = -1;
     printf("\n");
@@ -26,7 +26,7 @@ int main() {
     printf("et le temps écoulé est de %f secondes\n", temps_ecoule2);
     printf("\n");
     float delta_temps = temps_ecoule1 - temps_ecoule2;
-    printf("La différence de temps est de %f", delta_temps);
+    printf("La différence de temps est de %f", delta_temps);          //le delta_temps est pratiquement égal à temps_ecoule1
     printf("\n");
     printf("\n");
 }
