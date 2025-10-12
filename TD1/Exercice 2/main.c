@@ -24,4 +24,5 @@ int main() {
     printf("\n");
     float delta_temps = temps_ecoule1 - temps_ecoule2;
     printf("La différence de temps est de %f", delta_temps);
+    printf("\n")
 }
