@@ -5,8 +5,8 @@
 #include "utils.h"
 
 int main(void) {
-    int n = 100000;
-    int target = 2301;
+    int n = 100000;                //Test avec une taille de 100000
+    int target = 2301;             //Test avec une target de 2301 
     int* arr = malloc(4*n);
     for (int i=0;i<n;i++) {
         arr[i] = i;
